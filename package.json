@@ -23,11 +23,14 @@
     "url": "git+https://github.com/kazupon/beater-hakoniwa.git"
   },
   "scripts": {
-    "test": "beater"
+    "test": "beater",
+    "bundle": "browserify test/foo.js -o test/bundle.js"
   },
   "devDependencies": {
     "beater": "^0.4.1",
     "beater-cli": "^0.2.4",
+    "beater-html-reporter": "^0.1.1",
+    "browserify": "^13.0.1",
     "power-assert": "^1.4.1"
   }
 }
