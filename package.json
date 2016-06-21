@@ -1,0 +1,28 @@
+{
+  "name": "beater-hakoniwa",
+  "description": "My experimental playground for beater",
+  "version": "0.0.1",
+  "author": {
+    "name": "kazuya kawaguchi",
+    "email": "kawakazu80@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kazupon/beater-hakoniwa/issues"
+  },
+  "homepage": "https://github.com/kazupon/beater-hakoniwa#readme",
+  "keywords": [
+    "beater",
+    "sandbox",
+    "test framework"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazupon/beater-hakoniwa.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
